@@ -1286,7 +1286,7 @@ th {
 @font-face {
   font-family: 'FontAwesome';
   src: url("0-tools/fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("0-tools/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("0-tools/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("0-tools/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("0-tools/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("0-tools/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("0-tools/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("0-tools/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("0-tools/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("0-tools/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -3284,7 +3284,7 @@ header {
   color: #003469;
   font-family: "CleanvertisingLight", sans-serif;
   text-transform: uppercase;
-  padding: 40px 0; }
+  padding: 35px 0 0; }
   .s_tizers span {
     font-size: 14px;
     display: block; }
@@ -3292,6 +3292,8 @@ header {
     font-weight: normal;
     font-size: 23px;
     display: block; }
+  .s_tizers .row > div {
+    margin-bottom: 35px; }
 
 .tiz_img,
 .tiz_descr {
@@ -3308,6 +3310,90 @@ header {
   letter-spacing: -12px;
   margin-right: 18px; }
 
+.s_tizers .row > div:nth-child(1) strong {
+  font-size: 25px;
+  line-height: 28px; }
+
+.s_tizers .row > div:nth-child(1) span {
+  font-size: 20px;
+  line-height: 24px; }
+
+.s_tizers .row > div:nth-child(2) span {
+  font-size: 16px;
+  line-height: 24px; }
+
+.s_tizers .row > div:nth-child(2) i {
+  position: relative;
+  bottom: -5px;
+  color: #000; }
+
+.s_tizers .row > div:nth-child(3) i {
+  color: #000; }
+
+.profi_item .profi_left i {
+  font-size: 100px;
+  line-height: 100px;
+  color: #981818; }
+
+.profi_item .profi_right h3 {
+  display: inline-block;
+  color: #981818;
+  margin: 0; }
+
+.profi_item .profi_right p {
+  margin-top: 5px; }
+
+form {
+  background-color: #f7f7f7;
+  padding: 25px 30px;
+  border: #67bc5c 5px solid;
+  border-radius: 5px; }
+  form h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-family: "RobtoBold", sans-serif;
+    font-size: 22px;
+    color: #333;
+    line-height: 22px;
+    margin-bottom: 23px; }
+  form label {
+    display: block;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px; }
+  form input,
+  form select {
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    border: #d9d9d9 1px solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+    width: 100%;
+    text-indent: 10px;
+    font-size: 20px; }
+  form input:focus {
+    box-shadow: #67bc5c 0 0 0 2px;
+    border-radius: 3px;
+    border-color: #67bc5c; }
+  form select {
+    background-image: url(../img/arrow.png);
+    background-position: right center;
+    background-repeat: no-repeat; }
+  form .button_wrap {
+    text-align: center;
+    margin: 30px 0 10px; }
+
+@media (max-width: 1200px) {
+  .s_tizers .row > div {
+    text-align: left; }
+  .tiz_descr {
+    display: inline-block;
+    margin: 10px; } }
+
+@media (max-width: 992px) {
+  .tiz_img {
+    margin-left: 20px; } }
+
 @media (max-width: 768px) {
   .top_phone, .logo, h1, .top_header h2 {
     text-align: center; }
@@ -3315,6 +3401,12 @@ header {
     margin-bottom: 15px; }
   .top_phone .tab_item {
     font-size: 30px; } }
+
+@media (max-width: 600px) {
+  .profi_item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px; } }
 
 @media (max-width: 480px) {
   .top_header {
@@ -3327,4 +3419,7 @@ header {
   .tabs_header .tabs span {
     font-size: 12px; }
   .button_wrap {
-    text-align: center; } }
+    text-align: center; }
+  secton h2 {
+    font-size: 38px;
+    line-height: 42px; } }
